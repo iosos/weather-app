@@ -1,0 +1,217 @@
+
+body {
+    font-family: "Roboto", "Open Sans", sans-serif;
+}
+
+.navbar .container {
+    padding: 50px 0;
+}
+
+.navbar .navbar-brand .logo-text span {
+    font-size: 10px;
+    color: #bfc1c8;
+}
+
+.navbar-nav li {
+    margin-left: 10px;
+}
+
+.navbar-nav li a {
+    padding: 5px 25px !important;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    color: white;
+    transition: 0.6s ease-in-out;
+    font-weight: 400;
+    font-size: 15px;
+
+}
+
+.navbar-nav li a.active,
+.navbar-nav li a:hover {
+    border-color: #009ad8;
+    color: #009ad8 !important;
+}
+
+
+.home {
+
+    position: relative;
+    top: 180px;
+    background-image: url(../img/banner.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 350px;
+    padding: 70px 0;
+}
+
+.home .search-location input[type="text"] {
+    padding: 15px 30px;
+    background-color: #1e202b;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+}
+
+.home .search-location input[type="button"] {
+    background-color: #009ad8;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    padding: 0 40px;
+    border-radius: 30px;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+/* End Home */
+/* Strat Weather */
+.weather {
+    background-color: #1e202b;
+    padding-bottom: 50px;
+}
+
+.weather .card {
+    color: #bfc1c8;
+    background-color: #323544;
+}
+
+.weather .weather-box .divContainer .next-days:nth-child(even) .card {
+    background-color: #262936 !important;
+}
+
+.weather .card .card-header {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.weather .card .card-body {
+    padding: 50px 20px 10px;
+    text-align: center;
+}
+
+.weather .card .card-body .card-title {
+    font-size: 18px;
+}
+
+.weather .card .card-body .temp-condition {
+    color: #009ad8;
+    margin: 20px 0;
+}
+
+.weather .card .card-body span {
+    margin-right: 20px;
+}
+
+.weather .card .card-body span img {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.weather .card .card-body .pub-icon {
+    margin-bottom: 20px;
+}
+
+.weather .card .card-body .pub-icon img {
+    width: 64px;
+    height: 64px;
+}
+
+.weather .current-day .card-body .temp,
+.weather .card .card-body .high-temp {
+    font-weight: 700;
+    color: #fff;
+}
+
+.weather .card .card-body .high-temp {
+    font-size: 21px;
+}
+
+.weather .card .card-body .low-temp {
+    font-size: 16px;
+}
+
+.weather .current-day .card-body {
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.weather .current-day .card-body .temp {
+    font-size: 60px;
+}
+
+.weather .current-day .card-body .icon-img img {
+    width: 90px;
+    height: 90px;
+}
+
+/* End Weather */
+/* Start Footer */
+.footer-main {
+    background-color: #262936;
+    padding: 50px 0;
+}
+
+.footer-main .inner-form input[type="text"] {
+    padding: 15px 30px;
+    background-color: #1e202b;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+}
+
+.footer-main .inner-form input[type="button"] {
+    background-color: #009ad8;
+
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    padding: 0 40px;
+    border-radius: 30px;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+input::placeholder {
+    color: rgb(182, 182, 182) !important;
+}
+
+.footer-main .social ul li {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #1e202b;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    transition: all 0.5s ease-in-out;
+   
+}
+
+.footer-main .social a {
+    color: #009ad8;
+    transition: all 0.5s ease-in-out;
+ 
+}
+
+.footer-main .social li:hover {
+    background: #009ad8;
+}
+
+.footer-main .social li:hover a {
+    color: white;
+}
+
+.footer-main .copy {
+    color: #bfc1c8;
+}

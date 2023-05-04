@@ -1,0 +1,116 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Assignment 10 - Osama Ali</title>
+</head>
+
+<body>
+    <!-- Start Navbar -->
+    <nav class="navbar navbar-expand-md fixed-top bg-dark navbar-dark pb-3 pt-3">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./img/logo.png" alt="" class="logo">
+                <div class="logo-text d-inline-block align-middle ms-2">
+                    <h4 class="mb-1 fs-5">Weather</h4>
+                    <span class="d-block">tagline goes here</span>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Live cameras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Photos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Start Home  -->
+    <section class="home" id="home">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-12 text-center">
+                    <form class="mb-5 search-location position-relative">
+                        <div class="form-group d-flex justify-content-center align-items-center">
+                            <input type="text" class="form-control" placeholder="Find your location..." id="search">
+                            <input type="button" class="position-absolute btn btn-primary" value="Find" id="submit">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Home  -->
+
+    <!-- Weather Section Start-->
+    <section class="weather" id="weather">
+        <div class="container">
+            <div class="row">
+                <div class="weather-box">
+                    <div class="col-md-12 d-flex justify-content-around divContainer" id="divContainer">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--  Weather Section End -->
+
+    <!-- Start Footer -->
+    <footer class="footer-main">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <form class="mb-5 inner-form position-relative">
+                        <div class="form-group d-flex justify-content-center align-items-center">
+                            <input type="text" class="form-control" placeholder="Enter your email to subscribe..."
+                                id="search">
+                            <input type="button" class="position-absolute btn btn-primary" value="Subscribe"
+                                id="subscribe">
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-3 col-md-offset-1">
+                    <div class="social text-center">
+                        <ul class="list-unstyled d-flex justify-content-center align-items-center">
+                            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa-brands  fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-google-plus"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
+                        </ul>
+
+                    </div>
+                </div>
+                <p class="copy">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
